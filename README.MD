@@ -12,7 +12,7 @@ Want to clean it up a bit?🧹 But what about those one-click solutions you had?
 
 ![how](https://media.giphy.com/media/H6JdkRnhXQaImiCYp2/giphy.gif)
 
-Definitely you can with your custom chrome extension. 
+Definitely you can with your custom chrome extension 💻. 
 
 ![yes](https://media.giphy.com/media/nFjDu1LjEADh6/giphy.gif)
 
@@ -137,13 +137,13 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 ![Finish-It](https://media.giphy.com/media/WgRqTUQbqULJEq9swo/giphy.gif)
 
-    - Open Google Chrome
-    - In the Search Bar, type ```chrome://extensions```
-    - Enable Developer Mode option (If not already done)
-    - Click on ```Load Unpacked```
-    - Navigate to the ```profile_chrome_extension``` directory and select it
+   - Open Google Chrome
+   - In the Search Bar, type ```chrome://extensions```
+   - Enable Developer Mode option (If not already done)
+   - Click on ```Load Unpacked```
+   - Navigate to the ```profile_chrome_extension``` directory and select it
 
-- Baam! you just made your own Chrome Extension for handling your social media profiles
+- Baam!💣 you just made your own Chrome Extension💻 for handling your social media profiles
 
 ![easy](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
 
