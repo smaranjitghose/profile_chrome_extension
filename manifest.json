@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Smaranjit Ghose Profile",
+  "description": "All of Smaranjit Ghose's Profiles under the same roof",
+  "version": "0.0.1",
+  "icons": { "128": "assets/smaranjit_ghose_profile_icon_big.png" },
+  "browser_action": {
+    "default_icon": "assets/smaranjit_ghose_profile_icon_small.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
