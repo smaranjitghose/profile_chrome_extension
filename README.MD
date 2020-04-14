@@ -56,7 +56,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   "permissions": ["activeTab"]
 }
 ```
-![wait-what](https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif)
+![wait-what](https://media.giphy.com/media/SqmkZ5IdwzTP2/giphy.gif)
 
 - Don't worry! We are in this together. Let's do this one step at a time.
     - First Update the name you want to give to your chrome extension
