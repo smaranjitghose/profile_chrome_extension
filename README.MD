@@ -23,7 +23,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 # Lets see what we have here 👀:
 ![Snapshot](https://github.com/smaranjitghose/profile_chrome_extension/blob/master/assets/snapshot.png)
 
-# Want it from yourself? Here you go:
+# Want it for yourself? Here you go
 
 ![give it](https://media.giphy.com/media/KamhkkcTtvOJ0FCjnB/giphy.gif)
 
