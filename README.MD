@@ -149,19 +149,23 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 #### Want to take this a step further? And share it with the world!
 
-- Compress all the content of the ```profile_chrome_extension``` into a .zip file 
+![more](https://media.giphy.com/media/l0Exdm9UbTHAFcJi0/giphy.gif)
+
+- Compress all the content of the ```profile_chrome_extension``` into a .zip file 📦
 - Go to [Chrome Webstore](https://developer.chrome.com/webstore/publish). Please carefully read the instructons
-- Make sure you have a snapshot of your Chrome extension working in 1280x800 px saved
+- Make sure you have a snapshot📸  of your Chrome extension working in 1280x800 px saved
 - Now click on the [Chrome Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard)
 - Log in with your Google Account.
 - Accept the terms
-- Pay the one-time registration fees. (The last time I checked it was around 5$)
-- Click on Add-New
-- Locate your compressed chrome extension in your system and select it
-- Select your snapshot
+- Pay the one-time registration fees💰 . (The last time I checked it was around 5$)
+- Click on Add New
+- Locate your compressed chrome extension 📦in your system and select it
+- Select your snapshot 📷
 - Click Publish
 
-Voila! You are a Google Chrome Extension Developer and just got your first extension published (FYI:Give it some hours to be done)
+Boom!💥  You are a Google Chrome Extension Developer now and just got your first extension published (FYI:Give it some hours to be done)
+
+![https://media.giphy.com/media/VACYDIiciYDtu/giphy.gif]
 
 # Always grateful 🙏 to Professor [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) for his tutorials and walkthroughs
 
