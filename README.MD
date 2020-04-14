@@ -5,7 +5,7 @@ Are you someone who is active on multiple social media platforms📱?
 ![fame](https://media.giphy.com/media/LWFXXqaSEmO7twXDxP/giphy.gif)
 
 Well if the answer is Yes💃,your Bookmarks Bar must be cluttered with them?
-s
+
 ![cluttered](https://media.giphy.com/media/3ELDuBKag7o8E/giphy.gif)
 
 Want to clean it up a bit?🧹 But what about those one-click solutions you had? Can you preserve them?
@@ -34,7 +34,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 - Lets start with the assets you need to modify:
     - You need an icon (mostly your name's initial's in some fancy font) 
-    - Resize it to 128x128 and 19x19 px respectively(you can experiment with other sizes too, these are what worked for me). You can use this [ResizeImage](https://resizeimage.net/) for this
+    - Resize it to 128x128 and 19x19 px respectively(you can experiment with other sizes too, these are what worked for me). You can use [ResizeImage](https://resizeimage.net/) for this
     - Save them as ```your_name_profile_icon_small.png``` and ```your_name_profile_icon_big.png``` inside the ```assets``` folder(YOu can also use other extensions like .jpg)
     - Now take your favorite profile picture and [resize]((https://resizeimage.net/)) it to 50X50 px (Again, this worked for me. You are welcome to experiment with other sizes) 
     - Save it as ```your_name_picture.png``` inside the ```assets``` folder
@@ -56,6 +56,8 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   "permissions": ["activeTab"]
 }
 ```
+![wait-what](https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif)
+
 - Don't worry! We are in this together. Let's do this one step at a time.
     - First Update the name you want to give to your chrome extension
      ```js
@@ -77,8 +79,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
     ```js
     "default_icon": "assets/your_name_profile_icon_small.png",
     ```
-- Save the changes to the File
+- Save ⚓ the changes to the File
 - That was easy right?. Now, lets see the basic web dev mantra behind our extension
+
+![easy](https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif)
+
 - Open the ```popup.html``` in your favourite IDE (Again,I prefer [VS Code](https://code.visualstudio.com/) )
   - Change the title:
   ```html
@@ -127,8 +132,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
      <i class="fa fa-twitter" style="color:#0ed1eb "></i>
      </a>
    ```
-- Save the changes to the File
+- Save ⚓ the changes to the File 
 - Damn! That was a lot of changes. Now let's use our chrome extension.
+
+![Finish-It](https://media.giphy.com/media/WgRqTUQbqULJEq9swo/giphy.gif)
+
     - Open Google Chrome
     - In the Search Bar, type ```chrome://extensions```
     - Enable Developer Mode option (If not already done)
@@ -137,6 +145,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 - Baam! you just made your own Chrome Extension for handling your social media profiles
 
+![easy](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
 
 #### Want to take this a step further? And share it with the world!
 
