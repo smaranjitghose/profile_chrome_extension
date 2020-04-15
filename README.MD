@@ -165,7 +165,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 Boom!💥  You are a Google Chrome Extension Developer now and just got your first extension published (FYI:Give it some hours to be done)
 
-![https://media.giphy.com/media/VACYDIiciYDtu/giphy.gif]
+![Done](https://media.giphy.com/media/VACYDIiciYDtu/giphy.gif)
 
 # Always grateful 🙏 to Professor [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) for his tutorials and walkthroughs
 
