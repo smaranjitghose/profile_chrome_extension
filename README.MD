@@ -1,31 +1,32 @@
-# Profile Chrome Extension
+<h2 align= "center"><b> Profile Chrome Extension </b></h2>
 
 Are you someone who is active on multiple social media platforms📱?
 
-![fame](https://media.giphy.com/media/LWFXXqaSEmO7twXDxP/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/LWFXXqaSEmO7twXDxP/giphy.gif"></p>
 
 Well if the answer is Yes💃,your Bookmarks Bar must be cluttered with them?
 
-![cluttered](https://media.giphy.com/media/3ELDuBKag7o8E/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/3ELDuBKag7o8E/giphy.gif"></p>
 
 Want to clean it up a bit?🧹 But what about those one-click solutions you had? Can you preserve them?
 
-![how](https://media.giphy.com/media/H6JdkRnhXQaImiCYp2/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/H6JdkRnhXQaImiCYp2/giphy.gif"></p>
 
 Definitely you can with your custom chrome extension 💻. 
 
-![yes](https://media.giphy.com/media/nFjDu1LjEADh6/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/nFjDu1LjEADh6/giphy.gif"></p>
 
 Wondering who is gonna build that classy thing for you?🤔🤔 Look no further. You are covered!
 
-![really](https://media.giphy.com/media/12FfNKPlSR5k2c/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/12FfNKPlSR5k2c/giphy.gif"></p>
 
-# Lets see what we have here 👀:
-![Snapshot](https://github.com/smaranjitghose/profile_chrome_extension/blob/master/assets/snapshot.png)
+<h2 align= "center"><b> Lets see what we have here 👀: </b></h2>
 
-# Want it for yourself? Here you go
+<p align= "center"><img src="https://github.com/smaranjitghose/profile_chrome_extension/blob/master/assets/snapshot.png"></p>
 
-![give it](https://media.giphy.com/media/KamhkkcTtvOJ0FCjnB/giphy.gif)
+<h2 align= "center"><b> Want it for yourself? Here you go </b></h2>
+
+<p align= "center"><img src="https://media.giphy.com/media/KamhkkcTtvOJ0FCjnB/giphy.gif"></p>
 
 - Clone this repository ⏬
 - Move inside 👉 the repo 
@@ -56,7 +57,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   "permissions": ["activeTab"]
 }
 ```
-![wait-what](https://media.giphy.com/media/SqmkZ5IdwzTP2/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/SqmkZ5IdwzTP2/giphy.gif"></p>
 
 - Don't worry! We are in this together. Let's do this one step at a time.
     - First Update the name you want to give to your chrome extension
@@ -82,7 +83,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 - Save ⚓ the changes to the File
 - That was easy right?. Now, lets see the basic web dev mantra behind our extension
 
-![easy](https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif"></p>
 
 - Open the ```popup.html``` in your favourite IDE (Again,I prefer [VS Code](https://code.visualstudio.com/) )
   - Change the title:
@@ -135,7 +136,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 - Save ⚓ the changes to the File 
 - Damn! That was a lot of changes. Now let's use our chrome extension.
 
-![Finish-It](https://media.giphy.com/media/WgRqTUQbqULJEq9swo/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/WgRqTUQbqULJEq9swo/giphy.gif"></p>
 
    - Open Google Chrome
    - In the Search Bar, type ```chrome://extensions```
@@ -145,11 +146,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 - Baam!💣 you just made your own Chrome Extension💻 for handling your social media profiles
 
-![easy](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif"></p>
 
-#### Want to take this a step further? And share it with the world!
+ <h2 align= "center"><b>Want to take this a step further? And share it with the world!</b></h2> 
 
-![more](https://media.giphy.com/media/l0Exdm9UbTHAFcJi0/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/l0Exdm9UbTHAFcJi0/giphy.gif"></p>
 
 - Compress all the content of the ```profile_chrome_extension``` into a .zip file 📦
 - Go to [Chrome Webstore](https://developer.chrome.com/webstore/publish). Please carefully read the instructons
@@ -165,14 +166,17 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 
 Boom!💥  You are a Google Chrome Extension Developer now and just got your first extension published (FYI:Give it some hours to be done)
 
-![Done](https://media.giphy.com/media/VACYDIiciYDtu/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/VACYDIiciYDtu/giphy.gif"></p>
 
 # Always grateful 🙏 to Professor [Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) for his tutorials and walkthroughs
 
-![Thank You](https://media.giphy.com/media/AeWoyE3ZT90YM/giphy.gif)
+<p align= "center"><img src="https://media.giphy.com/media/AeWoyE3ZT90YM/giphy.gif"></p>
 
-# License 📜
+ <h2 align= "center"><b>  License 📜</b></h2>
 
 [MIT License](https://github.com/smaranjitghose/profile_chrome_extension/blob/master/LICENSE)
 
 # **Crafted with ❤ by Smaranjit Ghose**
+
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/smaranjitghose) [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/smaranjitghose) 
+***
