@@ -2,7 +2,7 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 14px;
   margin: 0;
   min-height: 180px;
@@ -46,11 +46,14 @@ img {
 
 .logo {
   padding: 16px;
+  text-align: center;
 }
 
 .logo-icon {
   vertical-align: text-bottom;
   margin-right: 12px;
+  border-radius: 5px;
+  width: 8%;
 }
 
 .flex-container {
@@ -62,14 +65,27 @@ img {
 .flex {
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
-  width: 120px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
 }
 
 .flex:hover {
-  opacity: 0.4;
+  animation: spinAround 1.5s linear infinite;
 }
 
-.flex .fa {
-  font-size: 40px;
-  color: #3c797b;
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
+
+.flex {
+  font-size: 30px;
+}
+
