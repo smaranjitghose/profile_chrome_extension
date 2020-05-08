@@ -34,10 +34,6 @@ img {
   border-bottom: 0.5px solid #dadada;
 }
 
-.modal-content {
-  padding: 0 22px;
-}
-
 .modal-icons {
   border-top: 0.5px solid #dadada;
   height: 50px;
@@ -47,13 +43,6 @@ img {
 .logo {
   padding: 16px;
   text-align: center;
-}
-
-.logo-icon {
-  vertical-align: text-bottom;
-  margin-right: 12px;
-  border-radius: 5px;
-  width: 8%;
 }
 
 .flex-container {
