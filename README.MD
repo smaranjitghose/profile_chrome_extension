@@ -36,7 +36,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 - Lets start with the assets you need to modify:
     - You need an icon (mostly your name's initial's in some fancy font) 
     - Resize it to 128x128 and 19x19 px respectively(you can experiment with other sizes too, these are what worked for me). You can use [ResizeImage](https://resizeimage.net/) for this
-    - Save them as ```your_name_profile_icon_small.png``` and ```your_name_profile_icon_big.png``` inside the ```assets``` folder(YOu can also use other extensions like .jpg)
+    - Save them as ```your_profile_icon.png``` inside the ```assets``` folder(YOu can also use other extensions like .jpg)
     - Now take your favorite profile picture and [resize]((https://resizeimage.net/)) it to 50X50 px (Again, this worked for me. You are welcome to experiment with other sizes) 
     - Save it as ```your_name_picture.png``` inside the ```assets``` folder
 - Cool!, you lets have a look at the most crucial file of our Chrome Extension: ```manifest_json```
@@ -46,12 +46,12 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 ```js
 {
   "manifest_version": 2,
-  "name": "Smaranjit Ghose Profile",
-  "description": "All of Smaranjit Ghose's Profiles under the same roof",
-  "version": "0.0.1",
-  "icons": { "128": "assets/smaranjit_ghose_profile_icon_big.png" },
+  "name": "My Profile Hub",
+  "description": "All my profiles under the same roof",
+  "version": "0.0.2",
+  "icons": { "128": "assets/your_profile_icon.png" },
   "browser_action": {
-    "default_icon": "assets/smaranjit_ghose_profile_icon_small.png",
+    "default_icon": "assets/your_profile_icon.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab"]
@@ -66,7 +66,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
     ```
     - Now,give a small description about it
     ```js
-      "description": "All of Smaranjit Ghose's Profiles under the same roof",
+      "description": "All my profiles under the same roof",
     ```
     - (Optional)Decide the version you want to start with. I prefer starting with 0.0.1
     ```js
@@ -74,11 +74,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
     ```
     - Now, Lets give it your icon
     ```js
-      "icons": { "128": "assets/your_name_profile_icon_big.png" },
+      "icons": { "128": "assets/your_profile_icon.png" },
     ```
     - And finally the default icon(the 19x19 one)
     ```js
-    "default_icon": "assets/your_name_profile_icon_small.png",
+    "default_icon": "assets/your_profile_icon.png",
     ```
 - Save ⚓ the changes to the File
 - That was easy right?. Now, lets see the basic web dev mantra behind our extension
