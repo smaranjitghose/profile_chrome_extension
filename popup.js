@@ -1,3 +1,5 @@
+/*Here we add a reference to the IDs present in the popup.html file and give it a proper name to it*/
+
 var github_link = document.getElementById("github_link");
 var linkedin_link = document.getElementById("linkedin_link");
 var website_link = document.getElementById("website_link");
@@ -27,6 +29,9 @@ let array = [
 function void_click() {
   void 0;
 }
+
+/* It will showcase the result after clicking it*/
+
 chrome.storage.sync.get(array, function (links) {
   if (!chrome.runtime.error) {
     console.log(links);

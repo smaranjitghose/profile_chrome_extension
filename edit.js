@@ -1,3 +1,5 @@
+/*Here we add a reference to the IDs in edit.html file and give it a proper name to it*/
+
 var github_link = document.getElementById('github');
 var linkedin_link = document.getElementById('linkedin');
 var website_link = document.getElementById('website');
@@ -9,8 +11,9 @@ var kaggle_link = document.getElementById('kaggle');
 var facebook_link = document.getElementById('facebook');
 var instagram_link = document.getElementById('instagram');
 var leetcode_link = document.getElementById('leetcode');
-
 var save_button = document.getElementById('save');
+
+/*It will accept all those links given by the user */
 
 let array = ["github","linkedin","website","medium","twitter","mail","custommail","kaggle","facebook","instagram","leetcode",];
 chrome.storage.sync.get(array,function(links){
@@ -41,6 +44,7 @@ chrome.storage.sync.get(array,function(links){
     }
 });
 
+/* It will update the links according to it*/
 
 save_button.addEventListener('click',function(){
     UpdateLinks();
@@ -59,6 +63,8 @@ function UpdateLinks(){
         "instagram":instagram_link.value,
         "leetcode":leetcode_link.value,
     }
+
+    /*It is used to check whether your function is working or not*/
     chrome.storage.sync.set(dict,function(){
         if(!chrome.runtime.error){
             console.log("Links Updated");
