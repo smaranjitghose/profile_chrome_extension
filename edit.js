@@ -1,0 +1,68 @@
+var github_link = document.getElementById('github');
+var linkedin_link = document.getElementById('linkedin');
+var website_link = document.getElementById('website');
+var medium_link = document.getElementById('medium');
+var twitter_link = document.getElementById('twitter');
+var mail_link = document.getElementById('mail');
+var custom_mail_link = document.getElementById('custommail');
+var kaggle_link = document.getElementById('kaggle');
+var facebook_link = document.getElementById('facebook');
+var instagram_link = document.getElementById('instagram');
+var leetcode_link = document.getElementById('leetcode');
+
+var save_button = document.getElementById('save');
+
+let array = ["github","linkedin","website","medium","twitter","mail","custommail","kaggle","facebook","instagram","leetcode",];
+chrome.storage.sync.get(array,function(links){
+    if(!chrome.runtime.error){
+        console.log(links);
+        if(links.github)
+            github_link.value=links.github;
+        if(links.linkedin)
+            linkedin_link.value=links.linkedin;
+        if(links.website)
+            website_link.value=links.website;
+        if(links.medium)
+            medium_link.value=links.medium;
+        if(links.twitter)
+            twitter_link.value=links.twitter;
+        if(links.mail)
+            mail_link.value=links.mail;
+        if(links.custommail)
+            custom_mail_link.value=links.custommail;
+        if(links.kaggle)
+            kaggle_link.value=links.kaggle;
+        if(links.facebook)
+            facebook_link.value=links.facebook;
+        if(links.instagram)
+           instagram_link.value=links.instagram;
+        if(links.leetcode)
+            leetcode_link.value=links.leetcode;
+    }
+});
+
+
+save_button.addEventListener('click',function(){
+    UpdateLinks();
+});
+function UpdateLinks(){
+    let dict = {
+        "github":github_link.value,
+        "linkedin":linkedin_link.value,
+        "website":website_link.value,
+        "medium":medium_link.value,
+        "twitter":twitter_link.value,
+        "mail":mail_link.value,
+        "custommail":custom_mail_link.value,
+        "kaggle":kaggle_link.value,
+        "facebook":facebook_link.value,
+        "instagram":instagram_link.value,
+        "leetcode":leetcode_link.value,
+    }
+    chrome.storage.sync.set(dict,function(){
+        if(!chrome.runtime.error){
+            console.log("Links Updated");
+            window.location.pathname='popup.html'
+        }
+    })
+}
