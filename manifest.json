@@ -8,5 +8,5 @@
     "default_icon": "assets/profile_icon_small.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab","storage"]
 }
