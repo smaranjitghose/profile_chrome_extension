@@ -36,7 +36,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 - Lets start with the assets you need to modify:
     - You need an icon (mostly your name's initial's in some fancy font) 
     - Resize it to 128x128 and 19x19 px respectively(you can experiment with other sizes too, these are what worked for me). You can use [ResizeImage](https://resizeimage.net/) for this
-    - Save them as ```your_profile_icon.png``` inside the ```assets``` folder(YOu can also use other extensions like .jpg)
+    - Save them as ```your_name_profile_icon_small.png``` and ```your_name_profile_icon_big.png``` inside the ```assets``` folder(YOu can also use other extensions like .jpg)
     - Now take your favorite profile picture and [resize]((https://resizeimage.net/)) it to 50X50 px (Again, this worked for me. You are welcome to experiment with other sizes) 
     - Save it as ```your_name_picture.png``` inside the ```assets``` folder
 - Cool!, you lets have a look at the most crucial file of our Chrome Extension: ```manifest_json```
@@ -49,9 +49,9 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   "name": "My Profile Hub",
   "description": "All my profiles under the same roof",
   "version": "0.0.2",
-  "icons": { "128": "assets/your_profile_icon.png" },
+  "icons": { "128": "assets/smaranjit_ghose_profile_icon_big.png" },
   "browser_action": {
-    "default_icon": "assets/your_profile_icon.png",
+    "default_icon": "smaranjit_ghose_profile_icon_small.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab"]
@@ -74,11 +74,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
     ```
     - Now, Lets give it your icon
     ```js
-      "icons": { "128": "assets/your_profile_icon.png" },
+      "icons": { "128": "assets/your_name_profile_icon_big.png" },
     ```
     - And finally the default icon(the 19x19 one)
     ```js
-    "default_icon": "assets/your_profile_icon.png",
+    "default_icon": "assets/your_name_profile_icon_small.png",
     ```
 - Save ⚓ the changes to the File
 - That was easy right?. Now, lets see the basic web dev mantra behind our extension
@@ -101,11 +101,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   - Now scroll down to the ```<body>``` tag
   - Upate your profile picture and name of your chrome extension (A small Tip:Don't make it too long)
   ```html
-     <img class="logo-icon" src="assets/your_name_picture.png" />Your_Chrome_Extension_Name
+     <img class="logo-icon" src="assets/your_profile_icon.png" />Your_Chrome_Extension_Name
   ```
   - Now update with a one-line description or perhaps a note for yourself
   ```html
-     <p>All of Smaranjit's Profiles under the same roof</p>
+     <p>All my profiles under the same roof</p>
   ```
   - Finally, update your social media profile links:(Delete the given links if you don't use any of the social media platforms mentioned)
   ```html
