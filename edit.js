@@ -6,8 +6,8 @@ var website_link = document.getElementById('website');
 var medium_link = document.getElementById('medium');
 var twitter_link = document.getElementById('twitter');
 var kaggle_link = document.getElementById('kaggle');
-var facebook_link = document.getElementById('facebook');
-var instagram_link = document.getElementById('instagram');
+//var facebook_link = document.getElementById('facebook');
+//var instagram_link = document.getElementById('instagram');
 var leetcode_link = document.getElementById('leetcode');
 var save_button = document.getElementById('save');
 
@@ -29,10 +29,10 @@ chrome.storage.sync.get(array,function(links){
             twitter_link.value=links.twitter;
         if(links.kaggle)
             kaggle_link.value=links.kaggle;
-        if(links.facebook)
-            facebook_link.value=links.facebook;
-        if(links.instagram)
-           instagram_link.value=links.instagram;
+        // if(links.facebook)
+        //     facebook_link.value=links.facebook;
+        // if(links.instagram)
+        //    instagram_link.value=links.instagram;
         if(links.leetcode)
             leetcode_link.value=links.leetcode;
     }
@@ -51,8 +51,8 @@ function UpdateLinks(){
         "medium":medium_link.value,
         "twitter":twitter_link.value,
         "kaggle":kaggle_link.value,
-        "facebook":facebook_link.value,
-        "instagram":instagram_link.value,
+        // "facebook":facebook_link.value,
+        // "instagram":instagram_link.value,
         "leetcode":leetcode_link.value,
     }
 

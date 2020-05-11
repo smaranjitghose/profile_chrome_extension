@@ -6,8 +6,8 @@ var website_link = document.getElementById("website_link");
 var medium_link = document.getElementById("medium_link");
 var twitter_link = document.getElementById("twitter_link");
 var kaggle_link = document.getElementById("kaggle_link");
-var facebook_link = document.getElementById("facebook_link");
-var instagram_link = document.getElementById("instagram_link");
+// var facebook_link = document.getElementById("facebook_link");
+// var instagram_link = document.getElementById("instagram_link");
 var leetcode_link = document.getElementById("leetcode_link");
 
 let array = [
@@ -17,8 +17,8 @@ let array = [
   "medium",
   "twitter",
   "kaggle",
-  "facebook",
-  "instagram",
+  // "facebook",
+  // "instagram",
   "leetcode",
 ];
 
@@ -44,9 +44,9 @@ chrome.storage.sync.get(array, function (links) {
 
     if (links.kaggle) kaggle_link.href =`https://kaggle.com/${links.kaggle}`;
 
-    if (links.facebook) facebook_link.href = `https://www.facebook.com/${links.facebook}`;
+    // if (links.facebook) facebook_link.href = `https://www.facebook.com/${links.facebook}`;
 
-    if (links.instagram) instagram_link.href = `https://www.instagram.com/${links.instagram}`;
+    // if (links.instagram) instagram_link.href = `https://www.instagram.com/${links.instagram}`;
     
     if (links.leetcode) leetcode_link.href = `https://leetcode.com/${links.leetcode}`;
   }
