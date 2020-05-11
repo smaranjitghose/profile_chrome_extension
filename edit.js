@@ -5,8 +5,6 @@ var linkedin_link = document.getElementById('linkedin');
 var website_link = document.getElementById('website');
 var medium_link = document.getElementById('medium');
 var twitter_link = document.getElementById('twitter');
-var mail_link = document.getElementById('mail');
-var custom_mail_link = document.getElementById('custommail');
 var kaggle_link = document.getElementById('kaggle');
 var facebook_link = document.getElementById('facebook');
 var instagram_link = document.getElementById('instagram');
@@ -29,10 +27,6 @@ chrome.storage.sync.get(array,function(links){
             medium_link.value=links.medium;
         if(links.twitter)
             twitter_link.value=links.twitter;
-        if(links.mail)
-            mail_link.value=links.mail;
-        if(links.custommail)
-            custom_mail_link.value=links.custommail;
         if(links.kaggle)
             kaggle_link.value=links.kaggle;
         if(links.facebook)
@@ -56,8 +50,6 @@ function UpdateLinks(){
         "website":website_link.value,
         "medium":medium_link.value,
         "twitter":twitter_link.value,
-        "mail":mail_link.value,
-        "custommail":custom_mail_link.value,
         "kaggle":kaggle_link.value,
         "facebook":facebook_link.value,
         "instagram":instagram_link.value,
