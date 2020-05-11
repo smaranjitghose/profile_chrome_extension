@@ -46,12 +46,12 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
 ```js
 {
   "manifest_version": 2,
-  "name": "Smaranjit Ghose Profile",
-  "description": "All of Smaranjit Ghose's Profiles under the same roof",
-  "version": "0.0.1",
+  "name": "My Profile Hub",
+  "description": "All my profiles under the same roof",
+  "version": "0.0.2",
   "icons": { "128": "assets/smaranjit_ghose_profile_icon_big.png" },
   "browser_action": {
-    "default_icon": "assets/smaranjit_ghose_profile_icon_small.png",
+    "default_icon": "smaranjit_ghose_profile_icon_small.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab"]
@@ -66,7 +66,7 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
     ```
     - Now,give a small description about it
     ```js
-      "description": "All of Smaranjit Ghose's Profiles under the same roof",
+      "description": "All my profiles under the same roof",
     ```
     - (Optional)Decide the version you want to start with. I prefer starting with 0.0.1
     ```js
@@ -101,11 +101,11 @@ Wondering who is gonna build that classy thing for you?🤔🤔 Look no further.
   - Now scroll down to the ```<body>``` tag
   - Upate your profile picture and name of your chrome extension (A small Tip:Don't make it too long)
   ```html
-     <img class="logo-icon" src="assets/your_name_picture.png" />Your_Chrome_Extension_Name
+     <img class="logo-icon" src="assets/your_profile_icon.png" />Your_Chrome_Extension_Name
   ```
   - Now update with a one-line description or perhaps a note for yourself
   ```html
-     <p>All of Smaranjit's Profiles under the same roof</p>
+     <p>All my profiles under the same roof</p>
   ```
   - Finally, update your social media profile links:(Delete the given links if you don't use any of the social media platforms mentioned)
   ```html
