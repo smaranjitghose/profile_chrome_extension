@@ -10,6 +10,7 @@
       /* Modal Structure */
       body{
           padding: 20px;
+          text-align: center;
       }
       h1 {
         font-family: "Menlo", monospace;
@@ -32,7 +33,7 @@
 
       .modal-header {
         align-items: center;
-        border-bottom: 0.5px solid #dadada;
+        border-bottom: 0.5px solid #fff;
       }
 
       .modal-content {
@@ -40,7 +41,7 @@
       }
 
       .modal-icons {
-        border-top: 0.5px solid #dadada;
+        border-top: 0.5px solid #fff;
         height: 50px;
         width: 100%;
       }
@@ -81,26 +82,30 @@
       .btn{
         color: #fff !important;
         border-radius: .25rem;
-        padding: .375rem .75rem;
+        padding: 5px;
         line-height: 1rem;
         font-size: 1rem; 
         text-align: center;
         vertical-align: middle;
-        background-color: #007bff;
+        background-color: rgba(19, 124, 156, 0.836);
         border: 1px solid 007bff;
         margin-top: .25rem;
         margin-bottom: .25rem;
-        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+        cursor: pointer;
+      }
+      .btn-left{
+        margin-right: 20px;
+      }
+      .btn-right{
+        margin-left: 20px;
       }
       .btn:hover{
-        color: #fff;
-        background-color: #0069d9;
-        border-color: #0062cc;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+        opacity: 0.8;
       }
     </style>
 </head>
 <body>
-    <center>
         <h1>Modify your Profiles!</h1>
         <br>
         <input class="form-control" id="github" type="text" placeholder="Github">
@@ -130,10 +135,8 @@
         <input class="form-control" id="leetcode" type="text" placeholder="Leetcode">
         <br>
         <br>
-        <button class="btn" id="save">Save</button>
-        &nbsp;&nbsp;
-        <a class="btn" role="button" href="popup.html">Back</a>
-    </center>
+        <a class="btn btn-left" id="save">Save</a>
+        <a class="btn btn-right" role="button" href="popup.html">Back</a>
     <script src="edit.js"></script>
 </body>
 </html>
