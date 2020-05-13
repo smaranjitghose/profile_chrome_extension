@@ -34,7 +34,7 @@ chrome.storage.sync.get(array, function (links) {
 
     if (links.github) github_link.href =`https://github.com/${links.github}`;
 
-    if (links.linkedin) linkedin_link.href = links.linkedin;
+    if (links.linkedin) linkedin_link.href = `https://linkedin.com/in/${links.medium}`;
 
     if (links.website) website_link.href = links.website;
 
